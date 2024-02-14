@@ -11130,7 +11130,6 @@ GustOfWind_SwitchEffect:
 	xor a
 	ld [wDuelDisplayedScreen], a
 	ret
-
 ; input:
 ;	a = attack animation to play
 Func_2fea9:
@@ -11189,4 +11188,53 @@ HealPlayAreaCardHP:
 	call GetTurnDuelistVariable
 	add e
 	ld [hl], a
+	ret
+
+UltraBall_PlayerSelection:
+	call HandlePlayerSelection2HandCardsToDiscard
+	ret c ; was operation cancelled?
+
+; cards were selected to discard from hand.
+; now to choose a Pokemon from Deck.
+	call CreatePokemonCardListFromDeck
+	bank1call Func_5591
+	ldtx hl, ChooseCardToPlaceInHandText
+	ldtx de, PlayerDiscardPileText
+	bank1call SetCardListHeaderText
+	bank1call DisplayCardList
+	ldh [hTempList + 2], a ; placed after the 2 cards selected to discard
+	ret
+
+
+; makes list in wDuelTempList with all Pokemon cards
+; that are in Turn Duelist's hand.
+; if list turns out empty, return carry.
+CreatePokemonCardListFromDeck:
+	ld a, DUELVARS_DECK_CARDS
+	call GetTurnDuelistVariable
+	ld c, a
+	ld l, DUELVARS_DECK_CARDS
+	ld de, wDuelTempList
+.loop
+	ld a, [hl]
+	call LoadCardDataToBuffer2_FromDeckIndex
+	ld a, [wLoadedCard2Type]
+	cp TYPE_ENERGY
+	jr nc, .next_hand_card
+	ld a, [hl]
+	ld [de], a
+	inc de
+.next_hand_card
+	inc l
+	dec c
+	jr nz, .loop
+	ld a, $ff ; terminating byte
+	ld [de], a
+	ld a, [wDuelTempList]
+	cp $ff
+	jr z, .set_carry
+	or a
+	ret
+.set_carry
+	scf
 	ret

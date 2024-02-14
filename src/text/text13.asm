@@ -183,3 +183,73 @@ RecycleDescription:
 	line "in your discard pile on top of your"
 	line "deck."
 	done
+
+KeldeoEXName:
+	text "Keldeo EX"
+	done
+
+SecretSwordName:
+	text "Secret Sword"
+	done
+
+UltraBallName:
+	text "Ultra Ball"
+	done
+
+UltraBallDescription:
+	text "Discard 2 cards. You may then"
+	line "search your deck for any Pokémon"
+	line "Show that card to your opponent, "
+	line "then put it into your hand."
+	line "Shuffle your deck afterward."
+	done
+
+RushInName:
+	text "Rush In"
+	done
+
+RushInDescription:
+	text "Once during your turn (before your"
+	line "attack), if this Pokemon is on your"
+	line "Bench, you may switch this Pokemon"
+	line "with your Active Pokémon."
+	done
+
+SecretSwordDescription:
+	text "Does 20 more damage for each <WATER>"
+	line "Energy attached to this Pokemon."
+	done
+
+PsydriveDescription:
+	text "Discard an Energy attached to this "
+	line "Pokemon."
+	done
+
+XBallDescription:
+	text "Does 20 damage times the amount of"
+	line "Energy attached to this Pokemon"
+	line "and the Defending Pokémon."
+	done
+
+XBallName:
+	text "X Ball"
+	done
+
+MewtwoEXName:
+	text "Mewtwo EX"
+	done
+
+PsydriveName:
+	text "Psydrive"
+	done
+
+ColtName:
+	text "Colt"
+	done
+
+KeldeoDescription:
+	text "By blasting water from its hooves,"
+	line "it can glide across water."
+	line "It excels at using leg moves while"
+	line "battling."
+	done

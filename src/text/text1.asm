@@ -38,10 +38,6 @@ PKMNPWRText:
 	text "PKMN PWR"
 	done
 
-UnusedText000b: ; Unused (Pokemon Card)
-	textfw "ポケモンカード"
-	done
-
 LengthText:
 	text "Length"
 	done
@@ -130,10 +126,6 @@ DeckPrinterText:
 	text "Deck"
 	done
 
-UnusedText0022: ; Unused
-	text "Attack"
-	done
-
 NoPokemonOnTheBenchText:
 	text "No Pokémon on the Bench."
 	done
@@ -199,16 +191,8 @@ IncompleteText:
 	text "Incomplete"
 	done
 
-UnusedText0032: ; Unused
-	text "Damage"
-	done
-
 UsedText:
 	text "Used <RAMTEXT>."
-	done
-
-UnusedText0034: ; Unused
-	text "Received damage"
 	done
 
 PokemonsAttackText:
@@ -1133,10 +1117,6 @@ CardCheckIfHeads8CardsIfTails1CardText:
 IfHeadsNoDamageNextTurnText:
 	text "If Heads, you will not receive"
 	line "damage during opponent's next turn!"
-	done
-
-UnusedText00f2: ; Unused
-	text "Damage check"
 	done
 
 DamageCheckIfHeadsPlusDamageText:

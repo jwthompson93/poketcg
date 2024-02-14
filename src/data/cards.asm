@@ -232,8 +232,8 @@ CardPointers::
 	dw PokemonFluteCard
 	dw GamblerCard
 	dw RecycleCard
-	dw NULL
-	assert_table_length NUM_CARDS + 2
+	dw UltraBallCard
+	assert_table_length NUM_CARDS + 1
 
 BulbasaurCard:
 	db TYPE_PKMN_GRASS ; type
@@ -7841,17 +7841,17 @@ MewtwoLv53Card:
 	db STAR ; rarity
 	db LABORATORY | NONE ; sets
 	db MEWTWO_LV53
-	db 60 ; hp
+	db 170 ; hp
 	db BASIC ; stage
 	dw NONE ; pre-evo name
 
 	; attack 1
-	energy PSYCHIC, 1, COLORLESS, 1 ; energies
+	energy COLORLESS, 1, COLORLESS, 1 ; energies
 	tx PsychicName ; name
 	tx PsychicDescription ; description
 	dw NONE ; description (cont)
-	db 10 ; damage
-	db DAMAGE_PLUS ; category
+	db 20 ; damage
+	db DAMAGE_X ; category
 	dw MewtwoPsychicEffectCommands ; effect commands
 	db NONE ; flags 1
 	db NONE ; flags 2
@@ -7860,7 +7860,7 @@ MewtwoLv53Card:
 	db ATK_ANIM_PSYCHIC_HIT ; animation
 
 	; attack 2
-	energy PSYCHIC, 2 ; energies
+	energy PSYCHIC, 2, COLORLESS, 1 ; energies
 	tx BarrierName ; name
 	tx BarrierDescription ; description
 	dw NONE ; description (cont)
@@ -7868,12 +7868,12 @@ MewtwoLv53Card:
 	db RESIDUAL ; category
 	dw MewtwoBarrierEffectCommands ; effect commands
 	db NONE ; flags 1
-	db NULLIFY_OR_WEAKEN_ATTACK | DISCARD_ENERGY ; flags 2
+	db DISCARD_ENERGY ; flags 2
 	db NONE ; flags 3
 	db 2
 	db ATK_ANIM_BARRIER ; animation
 
-	db 3 ; retreat cost
+	db 2 ; retreat cost
 	db WR_PSYCHIC ; weakness
 	db NONE ; resistance
 	tx GeneticName ; category
@@ -9722,20 +9722,20 @@ DragoniteLv41Card:
 	db 0
 
 DragoniteLv45Card:
-	db TYPE_PKMN_COLORLESS ; type
+	db TYPE_PKMN_WATER ; type
 	gfx DragoniteLv45CardGfx ; gfx
-	tx DragoniteName ; name
+	tx KeldeoEXName ; name
 	db STAR ; rarity
 	db MYSTERY | FOSSIL ; sets
 	db DRAGONITE_LV45
-	db 100 ; hp
-	db STAGE2 ; stage
-	tx DragonairName ; pre-evo name
+	db 170 ; hp
+	db BASIC ; stage
+	dw NONE ; pre-evo name
 
 	; attack 1
 	energy 0 ; energies
-	tx StepInName ; name
-	tx StepInDescription ; description
+	tx RushInName ; name
+	tx RushInDescription ; description
 	dw NONE ; description (cont)
 	db 0 ; damage
 	db POKEMON_POWER ; category
@@ -9747,12 +9747,12 @@ DragoniteLv45Card:
 	db ATK_ANIM_GLOW_EFFECT ; animation
 
 	; attack 2
-	energy COLORLESS, 4 ; energies
-	tx SlamName ; name
-	tx DoubleAttackX40Description ; description
+	energy COLORLESS, 3 ; energies
+	tx SecretSwordName ; name
+	tx SecretSwordDescription ; description
 	dw NONE ; description (cont)
-	db 40 ; damage
-	db DAMAGE_X ; category
+	db 50 ; damage
+	db DAMAGE_PLUS ; category
 	dw DragoniteLv45SlamEffectCommands ; effect commands
 	db NONE ; flags 1
 	db NONE ; flags 2
@@ -9760,16 +9760,16 @@ DragoniteLv45Card:
 	db 0
 	db ATK_ANIM_HIT ; animation
 
-	db 1 ; retreat cost
-	db NONE ; weakness
-	db WR_FIGHTING ; resistance
-	tx DragonName ; category
-	db 149 ; Pokedex number
+	db 2 ; retreat cost
+	db WR_GRASS ; weakness
+	db NONE ; resistance
+	tx ColtName ; category
+	db 647 ; Pokedex number
 	db 0
 	db 45 ; level
-	db 7, 3 ; length
-	dw 463 * 10 ; weight
-	tx DragoniteDescription ; description
+	db 4, 7 ; length
+	dw 107 * 10 ; weight
+	tx KeldeoDescription ; description
 	db 0
 
 GrassEnergyCard:
@@ -10221,4 +10221,16 @@ RecycleCard:
 	db RECYCLE
 	dw RecycleEffectCommands ; effect commands
 	tx RecycleDescription ; description
+	dw NONE ; description (cont)
+
+
+UltraBallCard:
+	db TYPE_TRAINER ; type
+	gfx UltraBallCardGfx ; gfx
+	tx UltraBallName ; name
+	db CIRCLE ; rarity
+	db COLOSSEUM | JUNGLE ; sets
+	db ULTRA_BALL
+	dw UltraBallEffectCommands ; effect commands
+	tx UltraBallDescription ; description
 	dw NONE ; description (cont)

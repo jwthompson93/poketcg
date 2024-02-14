@@ -1617,3 +1617,10 @@ GustOfWindEffectCommands:
 	dbw EFFECTCMDTYPE_INITIAL_EFFECT_2, GustOfWind_PlayerSelection
 	dbw EFFECTCMDTYPE_BEFORE_DAMAGE, GustOfWind_SwitchEffect
 	db  $00
+
+UltraBallEffectCommands:
+	dbw EFFECTCMDTYPE_INITIAL_EFFECT_1, PokeBall_DeckCheck
+	dbw EFFECTCMDTYPE_INITIAL_EFFECT_2, SuperEnergyRetrieval_PlayerHandSelection
+	dbw EFFECTCMDTYPE_BEFORE_DAMAGE, PokeBall_AddToHandEffect
+	dbw EFFECTCMDTYPE_REQUIRE_SELECTION, UltraBall_PlayerSelection
+	db  $00

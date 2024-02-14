@@ -12,7 +12,6 @@ TextOffsets::
 	textpointer WeaknessText                                       ; 0x0008
 	textpointer ResistanceText                                     ; 0x0009
 	textpointer PKMNPWRText                                        ; 0x000a
-	textpointer UnusedText000b                                     ; 0x000b
 	textpointer LengthText                                         ; 0x000c
 	textpointer WeightText                                         ; 0x000d
 	textpointer PokemonText                                        ; 0x000e
@@ -35,7 +34,6 @@ TextOffsets::
 	textpointer TrainerCardText                                    ; 0x001f
 	textpointer EnergyCardText                                     ; 0x0020
 	textpointer DeckPrinterText                                    ; 0x0021
-	textpointer UnusedText0022                                     ; 0x0022
 	textpointer NoPokemonOnTheBenchText                            ; 0x0023
 	textpointer UnableDueToSleepText                               ; 0x0024
 	textpointer UnableDueToParalysisText                           ; 0x0025
@@ -51,9 +49,7 @@ TextOffsets::
 	textpointer YesOrNoText                                        ; 0x002f
 	textpointer DiscardName                                        ; 0x0030
 	textpointer IncompleteText                                     ; 0x0031
-	textpointer UnusedText0032                                     ; 0x0032
 	textpointer UsedText                                           ; 0x0033
-	textpointer UnusedText0034                                     ; 0x0034
 	textpointer PokemonsAttackText                                 ; 0x0035
 	textpointer ResistanceLessDamageText                           ; 0x0036
 	textpointer WeaknessMoreDamageText                             ; 0x0037
@@ -243,7 +239,6 @@ TextOffsets::
 	textpointer TrainerCardSuccessCheckText                        ; 0x00ef
 	textpointer CardCheckIfHeads8CardsIfTails1CardText             ; 0x00f0
 	textpointer IfHeadsNoDamageNextTurnText                        ; 0x00f1
-	textpointer UnusedText00f2                                     ; 0x00f2
 	textpointer DamageCheckIfHeadsPlusDamageText                   ; 0x00f3
 	textpointer DamageCheckIfHeadsXDamageText                      ; 0x00f4
 	textpointer AcidCheckText                                      ; 0x00f5
@@ -2991,3 +2986,12 @@ TextOffsets::
 	textpointer GamblerDescription                                 ; 0x0bab
 	textpointer RecycleName                                        ; 0x0bac
 	textpointer RecycleDescription                                 ; 0x0bad
+	textpointer UltraBallName                                      ; 0x0bae
+	textpointer UltraBallDescription                               ; 0x0baf
+	textpointer KeldeoDescription								   ; 0x0bb1
+	textpointer ColtName                               			   ; 0x0bb2
+	textpointer SecretSwordDescription                             ; 0x0bb3
+	textpointer SecretSwordName                               	   ; 0x0bb4
+	textpointer RushInDescription                                  ; 0x0bb5
+	textpointer RushInName                               		   ; 0x0bb6
+	textpointer KeldeoEXName                               		   ; 0x0bb7

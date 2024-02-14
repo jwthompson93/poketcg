@@ -56,8 +56,8 @@ tidy:
 	      src/rgbdscheck.o
 	$(MAKE) clean -C tools/
 
-compare: $(rom)
-	@$(SHA1) -c rom.sha1
+#compare: $(rom)
+#	@$(SHA1) -c rom.sha1
 
 tools:
 	$(MAKE) -C tools/

@@ -498,7 +498,7 @@ PracticePlayerDeck:
 	deck_list_start
 	card_item WATER_ENERGY,   2
 	card_item PSYCHIC_ENERGY, 1
-	card_item SEAKING,        1
+	card_item DRAGONITE_LV45, 1
 	card_item STARYU,         1
 	card_item FULL_HEAL,      1
 	card_item GOLDEEN,        1
