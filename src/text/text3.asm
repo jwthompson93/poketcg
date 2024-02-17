@@ -585,7 +585,7 @@ BulbasaurAndFriendsDescriptionText:
 	done
 
 PsychicMachampDescriptionText:
-	text "Machamp, Hitmonlee, Hitmonchan"
+	text "Machamp, Hitmonlee"
 	line "Gengar and Alakazam are furious!"
 	done
 

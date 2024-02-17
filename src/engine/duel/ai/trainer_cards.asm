@@ -4634,7 +4634,7 @@ AIDecide_Revive:
 	jr z, .no_carry
 	ld b, a
 	call LoadCardDataToBuffer1_FromDeckIndex
-	cp HITMONCHAN
+	cp LANDORUS_EX
 	jr z, .set_carry
 	cp HITMONLEE
 	jr z, .set_carry

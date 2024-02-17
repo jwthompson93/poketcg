@@ -266,7 +266,7 @@ UnnamedDeck:
 
 	deck_list_start
 	card_item FIGHTING_ENERGY, 24
-	card_item HITMONCHAN,       4
+	card_item LANDORUS_EX,       4
 	card_item DIGLETT,          4
 	card_item MACHOP,           4
 	card_item MEOWTH_LV15,      4
@@ -583,7 +583,7 @@ SamsPracticeDeck:
 	card_item LIGHTNING_ENERGY,        1
 	card_item ELECTABUZZ_LV35,         1
 	card_item FIGHTING_ENERGY,         1
-	card_item HITMONCHAN,              1
+	card_item LANDORUS_EX,              1
 	card_item LIGHTNING_ENERGY,        1
 	card_item PROFESSOR_OAK,           1
 	card_item FIGHTING_ENERGY,         1
@@ -694,7 +694,7 @@ SquirtleAndFriendsDeck:
 	card_item MACHOP,           1
 	card_item MACHOKE,          1
 	card_item GEODUDE,          2
-	card_item HITMONCHAN,       1
+	card_item LANDORUS_EX,       1
 	card_item RATTATA,          2
 	card_item RATICATE,         1
 	card_item MEOWTH_LV14,      1
@@ -786,7 +786,7 @@ BulbasaurExtraDeck:
 	card_item HAUNTER_LV22,      1
 	card_item DIGLETT,           1
 	card_item DUGTRIO,           1
-	card_item HITMONCHAN,        1
+	card_item LANDORUS_EX,        1
 	card_item BILL,              1
 	card_item POTION,            2
 	card_item GUST_OF_WIND,      1
@@ -847,7 +847,7 @@ WaterAndFightingDeck:
 	card_item MACHOP,                   3
 	card_item MACHOKE,                  2
 	card_item MACHAMP,                  1
-	card_item HITMONCHAN,               1
+	card_item LANDORUS_EX,               1
 	card_item RHYHORN,                  2
 	card_item RHYDON,                   1
 	card_item PROFESSOR_OAK,            1
@@ -981,7 +981,7 @@ FirstStrikeDeck:
 	card_item MACHOP,           4
 	card_item MACHOKE,          3
 	card_item MACHAMP,          2
-	card_item HITMONCHAN,       2
+	card_item LANDORUS_EX,       2
 	card_item HITMONLEE,        4
 	card_item MANKEY,           4
 	card_item PRIMEAPE,         1
@@ -1183,7 +1183,7 @@ PowerfulRonaldDeck:
 	card_item DOUBLE_COLORLESS_ENERGY, 3
 	card_item ELECTABUZZ_LV35,         3
 	card_item HITMONLEE,               2
-	card_item HITMONCHAN,              2
+	card_item LANDORUS_EX,              2
 	card_item MR_MIME,                 1
 	card_item JYNX,                    2
 	card_item MEWTWO_LV53,             1
@@ -1264,7 +1264,7 @@ MusclesforBrainsDeck:
 	card_item MACHOKE,                  2
 	card_item MACHAMP,                  2
 	card_item HITMONLEE,                2
-	card_item HITMONCHAN,               2
+	card_item LANDORUS_EX,               2
 	card_item MEOWTH_LV15,              3
 	card_item PERSIAN,                  2
 	card_item LICKITUNG,                1
@@ -1291,7 +1291,7 @@ HeatedBattleDeck:
 	card_item MANKEY,            3
 	card_item PRIMEAPE,          2
 	card_item HITMONLEE,         3
-	card_item HITMONCHAN,        3
+	card_item LANDORUS_EX,        3
 	card_item KANGASKHAN,        2
 	card_item ENERGY_SEARCH,     2
 	card_item SCOOP_UP,          2
@@ -1334,7 +1334,7 @@ ExcavationDeck:
 	card_item SANDSLASH,           2
 	card_item CUBONE,              3
 	card_item MAROWAK_LV32,        1
-	card_item HITMONCHAN,          3
+	card_item LANDORUS_EX,          3
 	card_item KABUTO,              2
 	card_item KABUTOPS,            1
 	card_item AERODACTYL,          2

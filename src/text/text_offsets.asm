@@ -2648,11 +2648,11 @@ TextOffsets::
 	textpointer HighJumpKickName                                   ; 0x0a59
 	textpointer KickingName                                        ; 0x0a5a
 	textpointer HitmonleeDescription                               ; 0x0a5b
-	textpointer HitmonchanName                                     ; 0x0a5c
-	textpointer JabName                                            ; 0x0a5d
-	textpointer SpecialPunch                                       ; 0x0a5e
+	textpointer LandorusEXName                                     ; 0x0a5c
+	textpointer HammerheadName                                     ; 0x0a5d
+	textpointer LandsJudgmentName                                  ; 0x0a5e
 	textpointer PunchingName                                       ; 0x0a5f
-	textpointer HitmonchanDescription                              ; 0x0a60
+	textpointer LandorusEXDescription                              ; 0x0a60
 	textpointer RhyhornName                                        ; 0x0a61
 	textpointer LeerName                                           ; 0x0a62
 	textpointer LeerDescription                                    ; 0x0a63
@@ -2995,3 +2995,5 @@ TextOffsets::
 	textpointer RushInDescription                                  ; 0x0bb5
 	textpointer RushInName                               		   ; 0x0bb6
 	textpointer KeldeoEXName                               		   ; 0x0bb7
+	textpointer HammerheadDescription                              ; 0x0bb8
+	textpointer LandsJudgmentDescription                           ; 0x0bb9

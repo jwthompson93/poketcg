@@ -34,7 +34,7 @@ AIActionTable_PowerfulRonald:
 .list_arena
 	db KANGASKHAN
 	db ELECTABUZZ_LV35
-	db HITMONCHAN
+	db LANDORUS_EX
 	db MR_MIME
 	db LICKITUNG
 	db HITMONLEE
@@ -47,7 +47,7 @@ AIActionTable_PowerfulRonald:
 .list_bench
 	db KANGASKHAN
 	db HITMONLEE
-	db HITMONCHAN
+	db LANDORUS_EX
 	db TAUROS
 	db DODUO
 	db JYNX
@@ -66,7 +66,7 @@ AIActionTable_PowerfulRonald:
 .list_energy
 	ai_energy ELECTABUZZ_LV35, 2, +1
 	ai_energy HITMONLEE,       3, +1
-	ai_energy HITMONCHAN,      3, +1
+	ai_energy LANDORUS_EX,      3, +1
 	ai_energy MR_MIME,         2, +0
 	ai_energy JYNX,            3, +0
 	ai_energy MEWTWO_LV53,     2, +0

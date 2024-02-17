@@ -1222,26 +1222,26 @@ HitmonleeDescription:
 	line "extra long, loping strides."
 	done
 
-HitmonchanName:
-	text "Hitmonchan"
+LandorusEXName:
+	text "Landorus EX"
 	done
 
-JabName:
-	text "Jab"
+HammerheadName:
+	text "Hammerhead"
 	done
 
-SpecialPunch:
-	text "Special Punch"
+LandsJudgmentName:
+	text "Land's Judgment"
 	done
 
 PunchingName:
 	text "Punching"
 	done
 
-HitmonchanDescription:
-	text "While seeming to do nothing, it"
-	line "fires punches in lightning-fast"
-	line "volleys that are impossible to see."
+LandorusEXDescription:
+		      
+	text "Creates energy to give nutrients to"
+	line "the soil and make the land abundant."
 	done
 
 RhyhornName:
