@@ -2755,41 +2755,13 @@ ApplyExtraWaterEnergyDamageBonus:
 	pop bc
 
 	ld hl, wAttachedEnergies + WATER
-	ld a, c
-	or a
-	jr z, .check_bonus ; is Energy cost all water energy?
 
 	; it's not, so we need to remove the
 	; Water energy cards from calculations
 	; if they pay for colorless instead.
-	ld a, [wTotalAttachedEnergies]
-	cp [hl]
-	jr nz, .check_bonus ; skip if at least 1 non-Water energy attached
-
-	; Water is the only energy color attached
-	ld a, c
-	add b
-	ld b, a
-	; b += c
-
-.check_bonus
 	ld a, [hl]
-	sub b
-	jr c, .skip_bonus ; is water energy <  b?
-	jr z, .skip_bonus ; is water energy == b?
-
-; a holds number of water energy not payed for energy cost
-	cp 3
-	jr c, .less_than_3
-	ld a, 2 ; cap this to 2 for bonus effect
-.less_than_3
 	call ATimes10
 	call AddToDamage ; add 10 * a to damage
-
-.skip_bonus
-	ld a, [wDamage]
-	ld [wAIMinDamage], a
-	ld [wAIMaxDamage], a
 	ret
 
 OmastarWaterGunEffect:
@@ -2837,7 +2809,7 @@ DelugeEffect:
 	ret
 
 HydroPumpEffect:
-	lb bc, 3, 0
+	lb bc, 0, 4
 	jp ApplyExtraWaterEnergyDamageBonus
 
 KinglerFlail_AIEffect:
@@ -3041,7 +3013,7 @@ GolduckHyperBeam_DiscardEffect:
 	ret
 
 SeadraWaterGunEffect:
-	lb bc, 1, 1
+	lb bc, 1, 1 ; Amount of water energies needed, amount of colorless energy needed
 	jp ApplyExtraWaterEnergyDamageBonus
 
 SeadraAgilityEffect:
