@@ -2832,7 +2832,7 @@ WartortleWithdrawEffect:
 	call ApplySubstatus1ToDefendingCard
 	ret
 
-RainDanceEffect:
+DelugeEffect:
 	scf
 	ret
 

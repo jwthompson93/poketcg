@@ -92,7 +92,7 @@ CardPointers::
 	dw StarmieCard
 	dw MagikarpCard
 	dw GyaradosCard
-	dw LaprasCard
+	dw KeldeoEXCard
 	dw VaporeonLv29Card
 	dw VaporeonLv42Card
 	dw OmanyteCard
@@ -3251,18 +3251,18 @@ BlastoiseCard:
 	db STAR ; rarity
 	db EVOLUTION | NONE ; sets
 	db BLASTOISE
-	db 100 ; hp
+	db 140 ; hp
 	db STAGE2 ; stage
 	tx WartortleName ; pre-evo name
 
 	; attack 1
 	energy 0 ; energies
-	tx RainDanceName ; name
-	tx RainDanceDescription ; description
-	tx RainDanceDescriptionCont ; description (cont)
+	tx DelugeName ; name
+	tx DelugeDescription ; description
+	dw NONE ; description
 	db 0 ; damage
 	db POKEMON_POWER ; category
-	dw BlastoiseRainDanceEffectCommands ; effect commands
+	dw BlastoiseDelugeEffectCommands ; effect commands
 	db NONE ; flags 1
 	db NONE ; flags 2
 	db NONE ; flags 3
@@ -3270,11 +3270,11 @@ BlastoiseCard:
 	db ATK_ANIM_PKMN_POWER_1 ; animation
 
 	; attack 2
-	energy WATER, 3 ; energies
+	energy COLORLESS, 4 ; energies
 	tx HydroPumpName ; name
 	tx HydroPumpDescription ; description
 	dw NONE ; description (cont)
-	db 40 ; damage
+	db 60 ; damage
 	db DAMAGE_PLUS ; category
 	dw BlastoiseHydroPumpEffectCommands ; effect commands
 	db NONE ; flags 1
@@ -3283,7 +3283,7 @@ BlastoiseCard:
 	db MAX_ENERGY_BOOST_IS_LIMITED
 	db ATK_ANIM_HYDRO_PUMP ; animation
 
-	db 3 ; retreat cost
+	db 4 ; retreat cost
 	db WR_LIGHTNING ; weakness
 	db NONE ; resistance
 	tx ShellfishName ; category
@@ -4366,55 +4366,55 @@ GyaradosCard:
 	tx GyaradosDescription ; description
 	db 0
 
-LaprasCard:
+KeldeoEXCard:
 	db TYPE_PKMN_WATER ; type
-	gfx LaprasCardGfx ; gfx
-	tx LaprasName ; name
+	gfx DragoniteLv45CardGfx ; gfx
+	tx KeldeoEXName ; name
 	db STAR ; rarity
 	db MYSTERY | FOSSIL ; sets
-	db LAPRAS
-	db 80 ; hp
+	db KELDEO_EX
+	db 170 ; hp
 	db BASIC ; stage
 	dw NONE ; pre-evo name
 
 	; attack 1
-	energy WATER, 1 ; energies
-	tx WaterGunName ; name
-	tx LaprasWaterGunDescription ; description
+	energy 0 ; energies
+	tx RushInName ; name
+	tx RushInDescription ; description
 	dw NONE ; description (cont)
-	db 10 ; damage
-	db DAMAGE_PLUS ; category
-	dw LaprasWaterGunEffectCommands ; effect commands
+	db 0 ; damage
+	db POKEMON_POWER ; category
+	dw DragoniteStepInEffectCommands ; effect commands
 	db NONE ; flags 1
-	db ATTACHED_ENERGY_BOOST ; flags 2
-	db NONE ; flags 3
-	db MAX_ENERGY_BOOST_IS_LIMITED
-	db ATK_ANIM_WATER_GUN ; animation
-
-	; attack 2
-	energy WATER, 2 ; energies
-	tx ConfuseRayName ; name
-	tx MayInflictConfusionDescription ; description
-	dw NONE ; description (cont)
-	db 10 ; damage
-	db DAMAGE_NORMAL ; category
-	dw LaprasConfuseRayEffectCommands ; effect commands
-	db INFLICT_CONFUSION ; flags 1
 	db NONE ; flags 2
 	db NONE ; flags 3
 	db 0
-	db ATK_ANIM_CONFUSE_RAY ; animation
+	db ATK_ANIM_GLOW_EFFECT ; animation
+
+	; attack 2
+	energy COLORLESS, 3 ; energies
+	tx SecretSwordName ; name
+	tx SecretSwordDescription ; description
+	dw NONE ; description (cont)
+	db 50 ; damage
+	db DAMAGE_PLUS ; category
+	dw LaprasWaterGunEffectCommands ; effect commands
+	db NONE ; flags 1
+	db NONE ; flags 2
+	db NONE ; flags 3
+	db 0
+	db ATK_ANIM_HIT ; animation
 
 	db 2 ; retreat cost
-	db WR_LIGHTNING ; weakness
+	db WR_GRASS ; weakness
 	db NONE ; resistance
-	tx TransportName ; category
-	db 131 ; Pokedex number
+	tx ColtName ; category
+	db 153 ; Pokedex number
 	db 0
-	db 31 ; level
-	db 8, 2 ; length
-	dw 485 * 10 ; weight
-	tx LaprasDescription ; description
+	db 45 ; level
+	db 4, 7 ; length
+	dw 107 * 10 ; weight
+	tx KeldeoDescription ; description
 	db 0
 
 VaporeonLv29Card:
@@ -9722,20 +9722,20 @@ DragoniteLv41Card:
 	db 0
 
 DragoniteLv45Card:
-	db TYPE_PKMN_WATER ; type
+	db TYPE_PKMN_COLORLESS ; type
 	gfx DragoniteLv45CardGfx ; gfx
-	tx KeldeoEXName ; name
+	tx DragoniteName ; name
 	db STAR ; rarity
 	db MYSTERY | FOSSIL ; sets
 	db DRAGONITE_LV45
-	db 170 ; hp
-	db BASIC ; stage
-	dw NONE ; pre-evo name
+	db 100 ; hp
+	db STAGE2 ; stage
+	tx DragonairName ; pre-evo name
 
 	; attack 1
 	energy 0 ; energies
-	tx RushInName ; name
-	tx RushInDescription ; description
+	tx StepInName ; name
+	tx StepInDescription ; description
 	dw NONE ; description (cont)
 	db 0 ; damage
 	db POKEMON_POWER ; category
@@ -9747,12 +9747,12 @@ DragoniteLv45Card:
 	db ATK_ANIM_GLOW_EFFECT ; animation
 
 	; attack 2
-	energy COLORLESS, 3 ; energies
-	tx SecretSwordName ; name
-	tx SecretSwordDescription ; description
+	energy COLORLESS, 4 ; energies
+	tx SlamName ; name
+	tx DoubleAttackX40Description ; description
 	dw NONE ; description (cont)
-	db 50 ; damage
-	db DAMAGE_PLUS ; category
+	db 40 ; damage
+	db DAMAGE_X ; category
 	dw DragoniteLv45SlamEffectCommands ; effect commands
 	db NONE ; flags 1
 	db NONE ; flags 2
@@ -9760,16 +9760,16 @@ DragoniteLv45Card:
 	db 0
 	db ATK_ANIM_HIT ; animation
 
-	db 2 ; retreat cost
-	db WR_GRASS ; weakness
-	db NONE ; resistance
-	tx ColtName ; category
-	db 647 ; Pokedex number
+	db 1 ; retreat cost
+	db NONE ; weakness
+	db WR_FIGHTING ; resistance
+	tx DragonName ; category
+	db 149 ; Pokedex number
 	db 0
 	db 45 ; level
-	db 4, 7 ; length
-	dw 107 * 10 ; weight
-	tx KeldeoDescription ; description
+	db 7, 3 ; length
+	dw 463 * 10 ; weight
+	tx DragoniteDescription ; description
 	db 0
 
 GrassEnergyCard:

@@ -33,7 +33,7 @@ AIActionTable_LegendaryArticuno:
 
 .list_arena
 	db CHANSEY
-	db LAPRAS
+	db KELDEO_EX
 	db DITTO
 	db SEEL
 	db ARTICUNO_LV35
@@ -43,7 +43,7 @@ AIActionTable_LegendaryArticuno:
 .list_bench
 	db ARTICUNO_LV35
 	db SEEL
-	db LAPRAS
+	db KELDEO_EX
 	db CHANSEY
 	db DITTO
 	db $00
@@ -56,7 +56,7 @@ AIActionTable_LegendaryArticuno:
 .list_energy
 	ai_energy SEEL,          3, +1
 	ai_energy DEWGONG,       4, +0
-	ai_energy LAPRAS,        3, +0
+	ai_energy KELDEO_EX,        3, +0
 	ai_energy ARTICUNO_LV35, 4, +1
 	ai_energy ARTICUNO_LV37, 3, +0
 	ai_energy CHANSEY,       0, -8
@@ -95,7 +95,7 @@ ScoreLegendaryArticunoCards:
 ; otherwise, check if Articuno or Dewgong
 ; have more than half HP and can use second attack
 ; and if so, the next Pokémon to check is Lapras
-	ld a, LAPRAS
+	ld a, KELDEO_EX
 	call CheckForBenchIDAtHalfHPAndCanUseSecondAttack
 	jr c, .articuno
 	ld a, ARTICUNO_LV35
@@ -112,7 +112,7 @@ ScoreLegendaryArticunoCards:
 ; attached energy count, which skips calling the routine
 ; if this count is >= 3
 .lapras
-	ld a, LAPRAS
+	ld a, KELDEO_EX
 	ld b, PLAY_AREA_BENCH_1
 	call LookForCardIDInPlayArea_Bank5
 	jr nc, .articuno
@@ -120,7 +120,7 @@ ScoreLegendaryArticunoCards:
 	call CountNumberOfEnergyCardsAttached
 	cp 3
 	jr nc, .articuno
-	ld a, LAPRAS
+	ld a, KELDEO_EX
 	call RaiseAIScoreToAllMatchingIDsInBench
 	ret
 

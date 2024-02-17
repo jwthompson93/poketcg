@@ -6806,9 +6806,9 @@ HandleBetweenTurnsEvents:
 	call IsArenaPokemonAsleepOrPoisoned
 	call SwapTurn
 	jr c, .something_to_handle
-	call DiscardAttachedPluspowers
+	call DiscardAttachedPluspowers ; May remove to get effect of Tool Cards
 	call SwapTurn
-	call DiscardAttachedDefenders
+	call DiscardAttachedDefenders ; May remove to get effect of Tool Cards
 	call SwapTurn
 	ret
 

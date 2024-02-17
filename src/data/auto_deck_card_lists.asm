@@ -236,7 +236,7 @@ BlueWaterCardList:
 	card_item SEADRA,             1
 	card_item MAGIKARP,           1
 	card_item GYARADOS,           1
-	card_item LAPRAS,             1
+	card_item KELDEO_EX,             1
 	card_item OMANYTE,            1
 	card_item OMASTAR,            1
 	card_item ARTICUNO_LV35,      1
@@ -323,7 +323,7 @@ RainDancerCardList:
 	card_item SEAKING,                 3
 	card_item HORSEA,                  3
 	card_item SEADRA,                  2
-	card_item LAPRAS,                  2
+	card_item KELDEO_EX,                  2
 	card_item PROFESSOR_OAK,           2
 	card_item POKEMON_BREEDER,         1
 	card_item ENERGY_RETRIEVAL,        1
@@ -375,7 +375,7 @@ PokemonFluteCardList:
 	card_item WATER_ENERGY,      9
 	card_item LIGHTNING_ENERGY, 12
 	card_item STARYU,            2
-	card_item LAPRAS,            2
+	card_item KELDEO_EX,            2
 	card_item PIKACHU_LV12,      3
 	card_item RAICHU_LV40,       1
 	card_item MAGNEMITE_LV13,    2
@@ -983,7 +983,7 @@ SquirtleAndFriendsCardList:
 	card_item SEAKING,           1
 	card_item STARYU,            1
 	card_item STARMIE,           1
-	card_item LAPRAS,            1
+	card_item KELDEO_EX,            1
 	card_item PIKACHU_LV12,      2
 	card_item MAGNEMITE_LV13,    1
 	card_item MAGNETON_LV28,     1
@@ -1091,7 +1091,7 @@ WaterBeetleCardList:
 	card_item KINGLER,           1
 	card_item MAGIKARP,          2
 	card_item GYARADOS,          1
-	card_item LAPRAS,            1
+	card_item KELDEO_EX,            1
 	card_item ARTICUNO_LV35,     1
 	card_item LICKITUNG,         1
 	card_item KANGASKHAN,        1
@@ -1151,7 +1151,7 @@ LegendaryArticunoCardList:
 	card_item WATER_ENERGY,     25
 	card_item SEEL,              4
 	card_item DEWGONG,           3
-	card_item LAPRAS,            4
+	card_item KELDEO_EX,            4
 	card_item ARTICUNO_LV37,     2
 	card_item ARTICUNO_LV35,     2
 	card_item CHANSEY,           3
@@ -1173,7 +1173,7 @@ LegendaryDragoniteCardList:
 	card_item CHARIZARD,                2
 	card_item MAGIKARP,                 3
 	card_item GYARADOS,                 2
-	card_item LAPRAS,                   2
+	card_item KELDEO_EX,                   2
 	card_item KANGASKHAN,               2
 	card_item DRATINI,                  4
 	card_item DRAGONAIR,                3

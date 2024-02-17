@@ -2347,9 +2347,9 @@ TextOffsets::
 	textpointer TurtleName                                         ; 0x092c
 	textpointer WartortleDescription                               ; 0x092d
 	textpointer BlastoiseName                                      ; 0x092e
-	textpointer RainDanceName                                      ; 0x092f
-	textpointer RainDanceDescription                               ; 0x0930
-	textpointer RainDanceDescriptionCont                           ; 0x0931
+	textpointer DelugeName                                         ; 0x092f
+	textpointer DelugeDescription                                  ; 0x0930
+	textpointer DelugeDescriptionCont                              ; 0x0931
 	textpointer HydroPumpName                                      ; 0x0932
 	textpointer HydroPumpDescription                               ; 0x0933
 	textpointer ShellfishName                                      ; 0x0934

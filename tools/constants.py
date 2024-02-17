@@ -121,7 +121,7 @@ cards = {
 	0x56: "STARMIE",
 	0x57: "MAGIKARP",
 	0x58: "GYARADOS",
-	0x59: "LAPRAS",
+	0x59: "KELDEO_EX",
 	0x5a: "VAPOREON_LV29",
 	0x5b: "VAPOREON_LV42",
 	0x5c: "OMANYTE",

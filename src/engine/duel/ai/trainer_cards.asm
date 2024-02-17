@@ -5487,7 +5487,7 @@ AIDecide_PokemonTrader_LegendaryArticuno:
 	ld a, ARTICUNO_LV35
 	call LookForCardIDInHandAndPlayArea
 	jr c, .no_carry
-	ld a, LAPRAS
+	ld a, KELDEO_EX
 	call LookForCardIDInHandAndPlayArea
 	jr c, .no_carry
 
