@@ -716,10 +716,6 @@ CheckRainDanceScenario::
 	call GetCardType
 	cp TYPE_ENERGY_WATER
 	jr nz, .done
-	ldh a, [hTempPlayAreaLocation_ff9d]
-	call GetPlayAreaCardColor
-	cp TYPE_PKMN_WATER
-	jr nz, .done
 	scf
 	ret
 .done

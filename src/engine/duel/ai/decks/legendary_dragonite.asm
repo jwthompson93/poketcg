@@ -33,7 +33,7 @@ AIActionTable_LegendaryDragonite:
 
 .list_arena
 	db KANGASKHAN
-	db LAPRAS
+	db KELDEO_EX
 	db CHARMANDER
 	db DRATINI
 	db MAGIKARP
@@ -43,7 +43,7 @@ AIActionTable_LegendaryDragonite:
 	db CHARMANDER
 	db MAGIKARP
 	db DRATINI
-	db LAPRAS
+	db KELDEO_EX
 	db KANGASKHAN
 	db $00
 
@@ -62,7 +62,7 @@ AIActionTable_LegendaryDragonite:
 	ai_energy DRAGONAIR,      4, +0
 	ai_energy DRAGONITE_LV41, 3, -1
 	ai_energy KANGASKHAN,     2, -2
-	ai_energy LAPRAS,         3, +0
+	ai_energy KELDEO_EX,         3, +0
 	db $00
 
 .list_prize

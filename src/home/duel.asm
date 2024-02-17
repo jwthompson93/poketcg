@@ -1290,8 +1290,8 @@ GetPlayAreaCardAttachedEnergies::
 ; h = PLAYER_TURN or OPPONENT_TURN
 CountCardIDInLocation::
 	push bc
-	ld l, DUELVARS_CARD_LOCATIONS
-	ld c, $0
+	ld l, DUELVARS_CARD_LOCATIONS ; Sets l to value DUELVARS_CARD_LOCATIONS
+	ld c, $0 ; Sets c to value $0
 .next_card
 	ld a, [hl]
 	cp b
@@ -1980,7 +1980,7 @@ ApplyAttachedPluspower::
 	ld de, PLUSPOWER
 	call CountCardIDInLocation
 	ld l, a
-	ld h, 10
+	ld h, 10 ; Pluspower Multiplier
 	call HtimesL
 	pop de
 	add hl, de

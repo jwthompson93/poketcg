@@ -32,7 +32,7 @@ AIActionTable_ImRonald:
 	ret
 
 .list_arena
-	db LAPRAS
+	db KELDEO_EX
 	db SEEL
 	db CHARMANDER
 	db CUBONE
@@ -46,7 +46,7 @@ AIActionTable_ImRonald:
 	db SEEL
 	db CUBONE
 	db GROWLITHE
-	db LAPRAS
+	db KELDEO_EX
 	db $00
 
 .list_retreat
@@ -61,13 +61,13 @@ AIActionTable_ImRonald:
 	ai_energy WARTORTLE,      3, +0
 	ai_energy SEEL,           3, +0
 	ai_energy DEWGONG,        4, +0
-	ai_energy LAPRAS,         3, +0
+	ai_energy KELDEO_EX,         3, +0
 	ai_energy CUBONE,         3, +0
 	ai_energy MAROWAK_LV26,   3, +0
 	db $00
 
 .list_prize
-	db LAPRAS
+	db KELDEO_EX
 	db $00
 
 .store_list_pointers

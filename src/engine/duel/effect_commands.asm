@@ -364,8 +364,8 @@ WartortleWithdrawEffectCommands:
 	dbw EFFECTCMDTYPE_BEFORE_DAMAGE, WartortleWithdrawEffect
 	db  $00
 
-BlastoiseRainDanceEffectCommands:
-	dbw EFFECTCMDTYPE_INITIAL_EFFECT_1, RainDanceEffect
+BlastoiseDelugeEffectCommands:
+	dbw EFFECTCMDTYPE_INITIAL_EFFECT_1, DelugeEffect
 	db  $00
 
 BlastoiseHydroPumpEffectCommands:

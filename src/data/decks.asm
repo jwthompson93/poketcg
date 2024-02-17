@@ -498,9 +498,9 @@ PracticePlayerDeck:
 	deck_list_start
 	card_item WATER_ENERGY,   2
 	card_item PSYCHIC_ENERGY, 1
-	card_item DRAGONITE_LV45, 1
+	card_item SEAKING, 1
 	card_item STARYU,         1
-	card_item FULL_HEAL,      1
+	card_item FULL_HEAL,     1
 	card_item GOLDEEN,        1
 	card_item WATER_ENERGY,   5
 	card_item DROWZEE,        1
@@ -543,7 +543,7 @@ PracticePlayerDeck:
 	card_item DEWGONG,        1
 	card_item GOLDEEN,        1
 	card_item STARYU,         1
-	card_item LAPRAS,         1
+	card_item KELDEO_EX,         1
 	card_item ABRA,           1
 	card_item DROWZEE,        1
 	card_item HYPNO,          1
@@ -686,7 +686,7 @@ SquirtleAndFriendsDeck:
 	card_item STARMIE,          1
 	card_item GOLDEEN,          1
 	card_item SEAKING,          1
-	card_item LAPRAS,           1
+	card_item KELDEO_EX,        1
 	card_item ABRA,             2
 	card_item KADABRA,          1
 	card_item GASTLY_LV8,       2
@@ -937,7 +937,7 @@ LegendaryArticunoDeck:
 	card_item WATER_ENERGY,     25
 	card_item SEEL,              4
 	card_item DEWGONG,           3
-	card_item LAPRAS,            4
+	card_item KELDEO_EX,            4
 	card_item ARTICUNO_LV37,     2
 	card_item ARTICUNO_LV35,     2
 	card_item CHANSEY,           3
@@ -960,7 +960,7 @@ LegendaryDragoniteDeck:
 	card_item CHARIZARD,                2
 	card_item MAGIKARP,                 3
 	card_item GYARADOS,                 2
-	card_item LAPRAS,                   2
+	card_item KELDEO_EX,                   2
 	card_item KANGASKHAN,               2
 	card_item DRATINI,                  4
 	card_item DRAGONAIR,                3
@@ -1026,7 +1026,7 @@ GoGoRainDanceDeck:
 	card_item SEAKING,                 3
 	card_item HORSEA,                  3
 	card_item SEADRA,                  2
-	card_item LAPRAS,                  2
+	card_item KELDEO_EX,                  2
 	card_item PROFESSOR_OAK,           2
 	card_item POKEMON_BREEDER,         1
 	card_item ENERGY_RETRIEVAL,        1
@@ -1162,7 +1162,7 @@ ImRonaldDeck:
 	card_item WARTORTLE,         2
 	card_item SEEL,              2
 	card_item DEWGONG,           1
-	card_item LAPRAS,            2
+	card_item KELDEO_EX,            2
 	card_item CUBONE,            3
 	card_item MAROWAK_LV26,      2
 	card_item PROFESSOR_OAK,     1
@@ -1457,7 +1457,7 @@ SoundoftheWavesDeck:
 	card_item KINGLER,         2
 	card_item HORSEA,          2
 	card_item SEADRA,          1
-	card_item LAPRAS,          3
+	card_item KELDEO_EX,          3
 	card_item BILL,            3
 	card_item POKEMON_TRADER,  2
 	card_item ENERGY_REMOVAL,  2

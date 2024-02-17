@@ -1237,23 +1237,19 @@ BlastoiseName:
 	text "Blastoise"
 	done
 
-RainDanceName:
-	text "Rain Dance"
+DelugeName:
+	text "Deluge"
 	done
 
-RainDanceDescription:
+DelugeDescription:
 	text "As often as you like during your"
 	line "turn (before your attack), you may"
 	line "attach 1 <WATER> Energy card to 1 of"
-	line "your <WATER> Pokémon. (This doesn't use"
-	line "up your 1 Energy card attachment"
-	line "for the turn.)"
+	line "your Pokémon."
 	done
 
-RainDanceDescriptionCont:
-	text "This power can't be used if"
-	line "Blastoise is Asleep, Confused, or"
-	line "Paralyzed."
+DelugeDescriptionCont:
+	text "Placeholder"
 	done
 
 HydroPumpName:
@@ -1261,11 +1257,8 @@ HydroPumpName:
 	done
 
 HydroPumpDescription:
-	text "Does 40 damage plus 10 more damage"
-	line "for each <WATER> Energy attached to"
-	line "Blastoise but not used to pay for"
-	line "this attack's Energy cost. You can't"
-	line "add more than 20 damage in this way."
+	text "Does 10 more damage for each <WATER>"
+	line "Energy attached to this Pokemon"
 	done
 
 ShellfishName:

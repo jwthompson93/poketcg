@@ -32,7 +32,7 @@ AIActionTable_GoGoRainDance:
 	ret
 
 .list_arena
-	db LAPRAS
+	db KELDEO_EX
 	db HORSEA
 	db GOLDEEN
 	db SQUIRTLE
@@ -42,7 +42,7 @@ AIActionTable_GoGoRainDance:
 	db SQUIRTLE
 	db HORSEA
 	db GOLDEEN
-	db LAPRAS
+	db KELDEO_EX
 	db $00
 
 .list_retreat
@@ -59,7 +59,7 @@ AIActionTable_GoGoRainDance:
 	ai_energy SEAKING,   2, +0
 	ai_energy HORSEA,    2, +0
 	ai_energy SEADRA,    3, +0
-	ai_energy LAPRAS,    3, +0
+	ai_energy KELDEO_EX,    3, +0
 	db $00
 
 .list_prize

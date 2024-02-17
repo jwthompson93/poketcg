@@ -87,7 +87,7 @@
 	const STARMIE                     ; $56
 	const MAGIKARP                    ; $57
 	const GYARADOS                    ; $58
-	const LAPRAS                      ; $59
+	const KELDEO_EX              	  ; $59
 	const VAPOREON_LV29               ; $5a
 	const VAPOREON_LV42               ; $5b
 	const OMANYTE                     ; $5c
