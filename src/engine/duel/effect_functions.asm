@@ -2760,6 +2760,7 @@ ApplyExtraWaterEnergyDamageBonus:
 	; Water energy cards from calculations
 	; if they pay for colorless instead.
 	ld a, [hl]
+	add a
 	call ATimes10
 	call AddToDamage ; add 10 * a to damage
 	ret
