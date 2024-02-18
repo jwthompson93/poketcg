@@ -6789,15 +6789,16 @@ LandorusEXCard:
 	db ATK_ANIM_PUNCH ; animation
 
 	; attack 2
+	; TODO: Correct Land's Judgment effect
 	energy FIGHTING, 2, COLORLESS, 1 ; energies
 	tx LandsJudgmentName ; name
 	tx LandsJudgmentDescription ; description
 	dw NONE ; description (cont)
-	db 80 ; damage
-	db DAMAGE_PLUS ; category
-	dw NONE ; effect commands
+	db 150 ; damage
+	db DAMAGE_NORMAL ; category
+	dw CharizardFireSpinEffectCommands ; effect commands
 	db NONE ; flags 1
-	db NONE ; flags 2
+	db DISCARD_ENERGY ; flags 2
 	db NONE ; flags 3
 	db 0
 	db ATK_ANIM_PUNCH ; animation
