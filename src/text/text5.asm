@@ -199,7 +199,7 @@ CombosBookName:
 CombosBookText:
 	text "You can create powerful combos by"
 	line "combining the abilities of 2 cards."
-	line "Pokémon Powers and Trainer Cards "
+	line "Abilities and Trainer Cards "
 	line "are useful in creating combos! "
 	line "Find card combinations that will"
 	line "create your own powerful combos."
@@ -225,7 +225,7 @@ ToxicGasBookName:
 
 ToxicGasBookText:
 	text "Muk's Toxic Gas is very powerful!"
-	line "It can block all Pokémon Powers!"
+	line "It can block all Abilities!"
 	line "But be careful because it also"
 	line "blocks your own Pokémon's Powers!"
 	done
@@ -235,7 +235,7 @@ RainDanceBookName:
 	done
 
 RainDanceBookText:
-	text "Blastoise's Pokémon Power, Rain "
+	text "Blastoise's Ability, Rain "
 	line "Dance, is a great boon for your"
 	line "Water Pokémon! You can attach "
 	line "as many Water Energy cards as "
@@ -382,7 +382,7 @@ FightingPokemonAndCombosBookText:
 	text "It is difficult to create combos"
 	line "with a Fighting Pokémon, since"
 	line "not many Fighting Pokémon have "
-	line "Pokémon Power. However, their "
+	line "Abilities. However, their "
 	line "strong attacks make up for this."
 	done
 
@@ -474,7 +474,7 @@ ParalyzeBookText:
 	text "When a Pokémon is paralyzed, it"
 	line "is unable to do anything."
 	line "It cannot retreat, attack or use"
-	line "Pokémon Power, but the player may"
+	line "Abilities, but the player may"
 	line "use any cards in his or her hand."
 	line "Paralysis lasts until the end of "
 	line "the paralyzed player's turn. "
@@ -587,7 +587,7 @@ SleepBookText:
 	text "When a Pokémon is asleep,"
 	line "it is unable to do anything."
 	line "It cannot attack, retreat or use"
-	line "Pokémon Power. A coin will be "
+	line "Abilities. A coin will be "
 	line "flipped at the end of each player's "
 	line "turn. If the coin comes up heads, "
 	line "the Pokémon will wake up. If it's"
@@ -596,16 +596,16 @@ SleepBookText:
 	done
 
 PokemonPowerBookName:
-	text "Pokémon Power"
+	text "Ability"
 	done
 
 PokemonPowerBookText:
 	text "Some Pokémon have special "
-	line "abilities called Pokémon Power."
+	line "abilities called Ability."
 	line "They are very powerful abilities!"
 	line "They can be used before attacking, "
 	line "even if the Pokémon with the "
-	line "Pokémon Power is still on the Bench."
+	line "Ability is still on the Bench."
 	line "There are many different Pokémon "
 	line "Powers, so check your cards!"
 	done

@@ -1298,7 +1298,7 @@ ClefairyDollDescriptionCont:
 	line "Pokémon. At any time during your"
 	line "turn before your attack, you may"
 	line "discard Clefairy Doll."
-	line "(Use GameBoy Pokémon Power menu"
+	line "(Use GameBoy Ability menu"
 	line "option to do this.)"
 	done
 

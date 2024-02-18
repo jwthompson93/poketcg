@@ -485,7 +485,7 @@ FlowerGardenDescriptionText:
 	done
 
 KaleidoscopeDescriptionText:
-	text "Uses Venomoth's Pokémon Power to"
+	text "Uses Venomoth's Ability to"
 	line "change the opponent's Weakness."
 	done
 
@@ -540,7 +540,7 @@ PoisonDescriptionText:
 	done
 
 WondersOfScienceDescriptionText:
-	text "Block Pokémon Powers with "
+	text "Block Abilitys with "
 	line "Muk and attack with Mewtwo!"
 	done
 
@@ -632,7 +632,7 @@ GlossaryMenuPage1Text:
 	done
 
 GlossaryMenuPage2Text:
-	text "Energy Card         Pokémon Power "
+	text "Energy Card         Ability "
 	line "Trainer Card        Weakness       "
 	line "Basic Pokémon       Resistance"
 	line "Evolution Card      Retreat       "
@@ -701,7 +701,7 @@ AboutAttackingText:
 	done
 
 AboutPokemonPowerText:
-	text "About Pokémon Power"
+	text "About Ability"
 	done
 
 AboutWeaknessText:
@@ -865,13 +865,13 @@ AttackingDescriptionText:
 	done
 
 PokemonPowerDescriptionText:
-	text "Unlike Attacks, Pokémon Power"
+	text "Unlike Attacks, Abilities"
 	line "can be used by Active or Benched"
-	line "Pokémon. Some Pokémon Power are"
+	line "Pokémon. Some Abilities are"
 	line "effective by just placing the"
 	line "Pokémon in the Play Area, but for"
 	line "some you must choose the"
-	line "command, PKMN Power."
+	line "command, Ability."
 	done
 
 WeaknessDescriptionText:
@@ -1966,7 +1966,7 @@ SamRulesMenuText:
 	line "Attacking"
 	line "Retreating"
 	line "Evolving Pokémon"
-	line "Using Pokémon Power"
+	line "Using Abilities"
 	line "Ending Your Turn"
 	line "Win or Loss of a Duel"
 	line "Nothing to Ask"
