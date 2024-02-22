@@ -434,7 +434,7 @@ AIDecideWhetherToRetreat:
 	jr nc, .loop_ko_3
 	jr .set_carry
 
-; if player's turn and loaded attack is not a Pokémon Power OR
+; if player's turn and loaded attack is not an Ability OR
 ; if opponent's turn and wAITriedAttack == 0
 ; set wcdda's bit 7 flag
 Func_15b54:
@@ -982,7 +982,7 @@ AITryToRetreat:
 
 ; handle Mysterious Fossil and Clefairy Doll
 ; if there are bench Pokémon, use effect to discard card
-; this is equivalent to using its Pokémon Power
+; this is equivalent to using its Ability
 .mysterious_fossil_or_clefairy_doll
 	ld a, DUELVARS_NUMBER_OF_POKEMON_IN_PLAY_AREA
 	call GetTurnDuelistVariable

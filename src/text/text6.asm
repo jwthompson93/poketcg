@@ -1175,9 +1175,8 @@ Text05d9:
 	done
 
 Text05da:
-	text "Some Pokémon have special"
-	line "abilities called Pokémon Powers."
-	line "Some Pokémon Powers are used as"
+	text "Some Pokémon have Abilities"
+	line "Some Abilities are used as"
 	line "soon as the Pokémon is played,"
 	line "while others must be used by"
 	line "choosing the PKMN Power command."

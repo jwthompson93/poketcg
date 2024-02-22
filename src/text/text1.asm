@@ -11,7 +11,7 @@ AttackText:
 	done
 
 PKMNPowerText:
-	text "PKMN Power"
+	text "Ability"
 	done
 
 DoneText:
@@ -35,7 +35,7 @@ ResistanceText:
 	done
 
 PKMNPWRText:
-	text "PKMN PWR"
+	text "Ability"
 	done
 
 LengthText:
@@ -245,12 +245,12 @@ MayOnlyAttachOneEnergyCardText:
 	done
 
 UseThisPokemonPowerText:
-	text "Use this Pokémon Power?"
+	text "Use this Ability?"
 	done
 
 PokemonPowerSelectNotRequiredText:
 	text "You do not need to select the"
-	line "Pokémon Power to use it."
+	line "Ability to use it."
 	done
 
 DiscardDescription:
@@ -258,7 +258,7 @@ DiscardDescription:
 	line "your turn."
 	line "It will be counted as a Knock Out"
 	line "(This Discard is not"
-	line "a Pokémon Power)"
+	line "an Ability)"
 	done
 
 WillDrawNPrizesText:
@@ -382,7 +382,7 @@ RetreatWasUnsuccessfulText:
 
 WillUseThePokemonPowerText:
 	text "<RAMTEXT> will use the"
-	line "Pokémon Power <RAMTEXT>."
+	line "Ability <RAMTEXT>."
 	done
 
 FinishedTurnWithoutAttackingText:
@@ -561,12 +561,11 @@ WasKnockedOutText:
 	done
 
 HavePokemonPowerText:
-	text "<RAMTEXT> have"
-	line "Pokémon Power."
+	text "<RAMTEXT> has Ability"
 	done
 
 UnableToUsePkmnPowerDueToToxicGasText:
-	text "Unable to us Pokémon Power due to"
+	text "Unable to use Ability due to"
 	line "the effect of Toxic Gas."
 	done
 

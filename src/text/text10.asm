@@ -573,7 +573,7 @@ ToxicGasName:
 	done
 
 ToxicGasDescription:
-	text "Ignore all Pokémon Powers other"
+	text "Ignore all Abilities other"
 	line "than Toxic Gases. This power stops"
 	line "working while Muk is Asleep,"
 	line "Confused, or Paralyzed."
