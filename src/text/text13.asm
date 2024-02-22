@@ -253,3 +253,15 @@ KeldeoDescription:
 	line "It excels at using leg moves while"
 	line "battling."
 	done
+
+HammerheadDescription:
+	text "Does 30 damage to 1 of your opponent's"
+	line "Pokemon (Don't apply Weakness and "
+	line "Resistance for Benched Pokemon)"
+	done
+
+LandsJudgmentDescription:
+	text "You may discard all <FIGHTING> Energy attached"
+	line "to this Pokemon. If you do, this attack"
+	line "does 70 more damage."
+	done

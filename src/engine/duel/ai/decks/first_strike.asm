@@ -32,7 +32,7 @@ AIActionTable_FirstStrike:
 	ret
 
 .list_arena
-	db HITMONCHAN
+	db LANDORUS_EX
 	db MACHOP
 	db HITMONLEE
 	db MANKEY
@@ -41,7 +41,7 @@ AIActionTable_FirstStrike:
 .list_bench
 	db MACHOP
 	db HITMONLEE
-	db HITMONCHAN
+	db LANDORUS_EX
 	db MANKEY
 	db $00
 
@@ -55,7 +55,7 @@ AIActionTable_FirstStrike:
 	ai_energy MACHOP,     3, +0
 	ai_energy MACHOKE,    4, +0
 	ai_energy MACHAMP,    4, -1
-	ai_energy HITMONCHAN, 3, +0
+	ai_energy LANDORUS_EX, 3, +0
 	ai_energy HITMONLEE,  3, +0
 	ai_energy MANKEY,     2, -1
 	ai_energy PRIMEAPE,   3, -1
@@ -63,7 +63,7 @@ AIActionTable_FirstStrike:
 
 .list_prize
 	db HITMONLEE
-	db HITMONCHAN
+	db LANDORUS_EX
 	db $00
 
 .store_list_pointers

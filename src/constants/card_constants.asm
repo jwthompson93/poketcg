@@ -134,7 +134,7 @@
 	const MAROWAK_LV26                ; $85
 	const MAROWAK_LV32                ; $86
 	const HITMONLEE                   ; $87
-	const HITMONCHAN                  ; $88
+	const LANDORUS_EX                 ; $88
 	const RHYHORN                     ; $89
 	const RHYDON                      ; $8a
 	const KABUTO                      ; $8b

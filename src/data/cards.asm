@@ -139,7 +139,7 @@ CardPointers::
 	dw MarowakLv26Card
 	dw MarowakLv32Card
 	dw HitmonleeCard
-	dw HitmonchanCard
+	dw LandorusEXCard
 	dw RhyhornCard
 	dw RhydonCard
 	dw KabutoCard
@@ -6763,55 +6763,56 @@ HitmonleeCard:
 	tx HitmonleeDescription ; description
 	db 0
 
-HitmonchanCard:
+LandorusEXCard:
 	db TYPE_PKMN_FIGHTING ; type
-	gfx HitmonchanCardGfx ; gfx
-	tx HitmonchanName ; name
+	gfx LandorusEXCardGfx ; gfx
+	tx LandorusEXName ; name
 	db STAR ; rarity
 	db COLOSSEUM | NONE ; sets
-	db HITMONCHAN
-	db 70 ; hp
+	db LANDORUS_EX
+	db 180 ; hp
 	db BASIC ; stage
 	dw NONE ; pre-evo name
 
 	; attack 1
 	energy FIGHTING, 1 ; energies
-	tx JabName ; name
-	dw NONE ; description
+	tx HammerheadName ; name
+	tx HammerheadDescription ; description
 	dw NONE ; description (cont)
-	db 20 ; damage
+	db 30 ; damage
 	db DAMAGE_NORMAL ; category
-	dw NONE ; effect commands
-	db NONE ; flags 1
+	dw LandorusExHammerheadEffectCommands ; effect commands
+	db DAMAGE_TO_OPPONENT_BENCH ; flags 1
 	db NONE ; flags 2
 	db NONE ; flags 3
 	db 0
 	db ATK_ANIM_PUNCH ; animation
 
 	; attack 2
+	; TODO: Correct Land's Judgment effect
 	energy FIGHTING, 2, COLORLESS, 1 ; energies
-	tx SpecialPunch ; name
-	dw NONE ; description
+	tx LandsJudgmentName ; name
+	tx LandsJudgmentDescription ; description
 	dw NONE ; description (cont)
-	db 40 ; damage
+	db 150 ; damage
 	db DAMAGE_NORMAL ; category
-	dw NONE ; effect commands
+	dw CharizardFireSpinEffectCommands ; effect commands
 	db NONE ; flags 1
-	db NONE ; flags 2
+	db DISCARD_ENERGY ; flags 2
 	db NONE ; flags 3
 	db 0
 	db ATK_ANIM_PUNCH ; animation
 
 	db 2 ; retreat cost
-	db WR_PSYCHIC ; weakness
-	db NONE ; resistance
+	db WR_WATER ; weakness
+	db WR_LIGHTNING ; resistance
 	tx PunchingName ; category
-	db 107 ; Pokedex number
+	db 151 ; Pokedex number
 	db 0
 	db 33 ; level
-	db 4, 7 ; length
-	dw 111 * 10 ; weight
-	tx HitmonchanDescription ; description
+	db 4, 03 ; length
+	dw 150 * 10 ; weight
+	tx LandorusEXDescription ; description
 	db 0
 
 RhyhornCard:

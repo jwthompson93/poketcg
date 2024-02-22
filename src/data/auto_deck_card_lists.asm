@@ -20,7 +20,7 @@ AllFightingPokemonCardList:
 	card_item CUBONE,           2
 	card_item MAROWAK_LV26,     1
 	card_item HITMONLEE,        1
-	card_item HITMONCHAN,       1
+	card_item LANDORUS_EX,       1
 	card_item RHYHORN,          2
 	card_item RHYDON,           1
 	card_item PROFESSOR_OAK,    1
@@ -37,7 +37,7 @@ BenchAttackCardList:
 	card_item ELECTRODE_LV42,    2
 	card_item ZAPDOS_LV40,       2
 	card_item HITMONLEE,         4
-	card_item HITMONCHAN,        2
+	card_item LANDORUS_EX,        2
 	card_item MEOWTH_LV14,       4
 	card_item PROFESSOR_OAK,     1
 	card_item BILL,              2
@@ -60,7 +60,7 @@ BattleContestCardList:
 	card_item MACHOP,                   4
 	card_item MACHOKE,                  3
 	card_item HITMONLEE,                2
-	card_item HITMONCHAN,               2
+	card_item LANDORUS_EX,               2
 	card_item MEOWTH_LV14,              3
 	card_item PERSIAN,                  2
 	card_item DRATINI,                  3
@@ -82,7 +82,7 @@ HeatedBattleCardList:
 	card_item MANKEY,            3
 	card_item PRIMEAPE,          2
 	card_item HITMONLEE,         3
-	card_item HITMONCHAN,        3
+	card_item LANDORUS_EX,        3
 	card_item KANGASKHAN,        2
 	card_item ENERGY_SEARCH,     2
 	card_item SCOOP_UP,          2
@@ -98,7 +98,7 @@ FirstStrikeCardList:
 	card_item MACHOP,           4
 	card_item MACHOKE,          3
 	card_item MACHAMP,          2
-	card_item HITMONCHAN,       2
+	card_item LANDORUS_EX,       2
 	card_item HITMONLEE,        4
 	card_item MANKEY,           4
 	card_item PRIMEAPE,         1
@@ -187,7 +187,7 @@ ExcavationCardList:
 	card_item SANDSLASH,          2
 	card_item CUBONE,             3
 	card_item MAROWAK_LV32,       1
-	card_item HITMONCHAN,         3
+	card_item LANDORUS_EX,         3
 	card_item KABUTO,             2
 	card_item KABUTOPS,           1
 	card_item AERODACTYL,         2
@@ -1047,7 +1047,7 @@ PsychicMachampCardList:
 	card_item MACHAMP,          1
 	card_item ONIX,             1
 	card_item HITMONLEE,        1
-	card_item HITMONCHAN,       1
+	card_item LANDORUS_EX,       1
 	card_item ABRA,             2
 	card_item KADABRA,          1
 	card_item ALAKAZAM,         1

@@ -1967,7 +1967,7 @@ HitmonleeCardGfx::
 	INCBIN "gfx/cards/hitmonlee.2bpp"
 	INCBIN "gfx/cards/hitmonlee.pal"
 
-HitmonchanCardGfx::
+LandorusEXCardGfx::
 	INCBIN "gfx/cards/hitmonchan.2bpp"
 	INCBIN "gfx/cards/hitmonchan.pal"
 

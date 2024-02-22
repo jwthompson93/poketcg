@@ -1624,3 +1624,9 @@ UltraBallEffectCommands:
 	dbw EFFECTCMDTYPE_BEFORE_DAMAGE, PokeBall_AddToHandEffect
 	dbw EFFECTCMDTYPE_REQUIRE_SELECTION, UltraBall_PlayerSelection
 	db  $00
+
+LandorusExHammerheadEffectCommands:
+	dbw EFFECTCMDTYPE_AFTER_DAMAGE, Hammerhead_BenchDamageEffect
+	dbw EFFECTCMDTYPE_REQUIRE_SELECTION, Spark_PlayerSelectEffect
+	dbw EFFECTCMDTYPE_AI_SELECTION, Spark_AISelectEffect
+	db  $00

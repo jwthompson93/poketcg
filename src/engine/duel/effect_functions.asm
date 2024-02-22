@@ -11178,7 +11178,6 @@ UltraBall_PlayerSelection:
 	ldh [hTempList + 2], a ; placed after the 2 cards selected to discard
 	ret
 
-
 ; makes list in wDuelTempList with all Pokemon cards
 ; that are in Turn Duelist's hand.
 ; if list turns out empty, return carry.
@@ -11210,4 +11209,18 @@ CreatePokemonCardListFromDeck:
 	ret
 .set_carry
 	scf
+	ret
+
+
+
+Hammerhead_BenchDamageEffect:
+	ldh a, [hTemp_ffa0]
+	cp $ff
+	ret z
+	call SwapTurn
+	ldh a, [hTemp_ffa0]
+	ld b, a
+	ld de, 30
+	call DealDamageToPlayAreaPokemon_RegularAnim
+	call SwapTurn
 	ret
