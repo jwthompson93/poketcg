@@ -6794,8 +6794,8 @@ LandorusEXCard:
 	tx LandsJudgmentName ; name
 	tx LandsJudgmentDescription ; description
 	dw NONE ; description (cont)
-	db 150 ; damage
-	db DAMAGE_NORMAL ; category
+	db 80 ; damage
+	db DAMAGE_PLUS ; category
 	dw CharizardFireSpinEffectCommands ; effect commands
 	db NONE ; flags 1
 	db DISCARD_ENERGY ; flags 2

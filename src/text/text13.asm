@@ -255,13 +255,15 @@ KeldeoDescription:
 	done
 
 HammerheadDescription:
-	text "Does 30 damage to 1 of your opponent's"
-	line "Pokemon (Don't apply Weakness and "
-	line "Resistance for Benched Pokemon)"
+	text "Does 30 damage to 1 of your"
+	line "opponent's Benched Pokemon (Don't "
+	line "apply Weakness and Resistance for"
+	line "Benched Pokemon)"
 	done
 
 LandsJudgmentDescription:
-	text "You may discard all <FIGHTING> Energy attached"
-	line "to this Pokemon. If you do, this attack"
-	line "does 70 more damage."
+	text "You may discard all <FIGHTING> "
+	line "Energy attached to this Pokemon."
+	line "If you do, this attack does 70"
+	line "more damage."
 	done
