@@ -119,8 +119,8 @@ DEF TYPE_ENERGY EQU const_value
 	const TYPE_ENERGY_PSYCHIC          ; $0d
 	const TYPE_ENERGY_DOUBLE_COLORLESS ; $0e
 	const TYPE_ENERGY_UNUSED           ; $0f
-	const TYPE_TRAINER                 ; $10
-	const TYPE_TRAINER_UNUSED          ; $11
+	const TYPE_TRAINER_ITEM            ; $10
+	const TYPE_TRAINER_SUPPORTER       ; $11
 DEF NUM_CARD_TYPES EQU const_value - 1
 
 DEF TYPE_PKMN      EQU %111

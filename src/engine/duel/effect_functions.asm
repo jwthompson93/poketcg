@@ -541,7 +541,7 @@ CreateTrainerCardListFromDiscardPile:
 	ld a, [hl]
 	call LoadCardDataToBuffer2_FromDeckIndex
 	ld a, [wLoadedCard2Type]
-	cp TYPE_TRAINER
+	cp TYPE_TRAINER_ITEM
 	jr nz, .next_card
 
 	ld a, [hl]
@@ -8862,7 +8862,7 @@ CheckIfThereAreAnyEnergyCardsAttached:
 	ld a, l
 	call LoadCardDataToBuffer2_FromDeckIndex
 	ld a, [wLoadedCard2Type]
-	cp TYPE_TRAINER
+	cp TYPE_TRAINER_ITEM
 	jr z, .next_card ; skip if it's a Trainer card
 	cp TYPE_ENERGY
 	jr nc, .found
@@ -10310,7 +10310,7 @@ LassEffect:
 	jr z, .done
 	call GetCardIDFromDeckIndex
 	call GetCardType
-	cp TYPE_TRAINER
+	cp TYPE_TRAINER_ITEM
 	jr nz, .loop_hand
 	ldh a, [hTempCardIndex_ff98]
 	call RemoveCardFromHand
@@ -10319,6 +10319,7 @@ LassEffect:
 	ld hl, hCurSelectionItem
 	inc [hl]
 	pop hl
+;	inc c
 	jr .loop_hand
 .done
 ; show card list

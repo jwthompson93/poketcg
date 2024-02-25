@@ -3587,7 +3587,7 @@ PickPokedexCards_Unreferenced:
 	ld a, [hli]
 	cp $ff
 	jr z, .find_energy
-	cp TYPE_TRAINER
+	cp TYPE_TRAINER_ITEM
 	jr nz, .loop_trainers
 ; found a Trainer card
 ; store it in wce1a list
@@ -3742,7 +3742,7 @@ PickPokedexCards:
 	ld a, [hli]
 	cp $ff
 	jr z, .done
-	cp TYPE_TRAINER
+	cp TYPE_TRAINER_ITEM
 	jr nz, .loop_trainers
 ; found a Trainer card
 ; store it in wce1a list
@@ -4412,7 +4412,7 @@ AIDecide_Lass:
 	cp LASS
 	jr z, .loop
 	ld a, [wLoadedCard1Type]
-	cp TYPE_TRAINER
+	cp TYPE_TRAINER_ITEM
 	jr nz, .loop
 .no_carry
 	or a

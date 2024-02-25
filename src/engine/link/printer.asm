@@ -871,7 +871,7 @@ _PrintCardList:
 	cp TYPE_ENERGY
 	jr c, .got_type ; jump if Pokemon card
 	ld c, $08
-	cp TYPE_TRAINER
+	cp TYPE_TRAINER_ITEM
 	jr nc, .got_type ; jump if Trainer card
 	ld c, $07
 .got_type

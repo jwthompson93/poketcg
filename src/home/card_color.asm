@@ -19,7 +19,7 @@ GetPlayAreaCardColor::
 	call GetTurnDuelistVariable
 	call GetCardIDFromDeckIndex
 	call GetCardType
-	cp TYPE_TRAINER
+	cp TYPE_TRAINER_ITEM
 	jr nz, .got_type
 	ld a, COLORLESS
 .got_type

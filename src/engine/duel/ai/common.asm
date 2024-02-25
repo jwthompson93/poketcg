@@ -738,7 +738,7 @@ RemoveFromListDifferentCardOfGivenType:
 	pop de
 	cp TYPE_ENERGY
 	jr c, .pkmn_card
-	cp TYPE_TRAINER
+	cp TYPE_TRAINER_ITEM
 	jr nz, .energy
 
 ; only remove from list specific type.

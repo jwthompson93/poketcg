@@ -787,7 +787,7 @@ CheckAbleToRetreat:
 	call GetCardIDFromDeckIndex
 	call LoadCardDataToBuffer1_FromCardID
 	ld a, [wLoadedCard1Type]
-	cp TYPE_TRAINER
+	cp TYPE_TRAINER_ITEM
 	jr z, .unable_to_retreat
 	call CheckIfEnoughEnergiesToRetreat
 	jr c, .not_enough_energies
@@ -3349,7 +3349,7 @@ CardListItemSelectionMenu:
 	call LoadCardDataToBuffer1_FromDeckIndex
 	ldtx hl, PlayCheck2Text ; identical to PlayCheck1Text
 	ld a, [wLoadedCard1Type]
-	cp TYPE_TRAINER
+	cp TYPE_TRAINER_ITEM
 	jr nz, .got_text
 	ldtx hl, PlayCheck1Text
 .got_text
@@ -4724,7 +4724,7 @@ DrawLargePictureOfCard:
 	call LoadCardOrDuelMenuBorderTiles
 	ld e, HEADER_TRAINER
 	ld a, [wLoadedCard1Type]
-	cp TYPE_TRAINER
+	cp TYPE_TRAINER_ITEM
 	jr z, .draw
 	ld e, HEADER_ENERGY
 	and TYPE_ENERGY
@@ -7096,7 +7096,7 @@ HandlePoisonDamage:
 ConvertSpecialTrainerCardToPokemon::
 	ld c, a
 	ld a, [hl]
-	cp TYPE_TRAINER
+	cp TYPE_TRAINER_ITEM
 	ret nz ; return if the card is not TRAINER type
 	push hl
 	ldh a, [hWhoseTurn]
@@ -7466,7 +7466,7 @@ CountKnockedOutPokemon:
 	call GetCardIDFromDeckIndex
 	call GetCardType
 	pop de
-	cp TYPE_TRAINER
+	cp TYPE_TRAINER_ITEM
 	jr z, .next ; jump if this is a trainer card (Clefairy Doll or Mysterious Fossil)
 	inc b
 .next

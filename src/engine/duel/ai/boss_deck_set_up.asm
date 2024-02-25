@@ -36,7 +36,7 @@ SetUpBossStartingHandAndDeck:
 	ld a, [wLoadedCard1Type]
 	cp TYPE_ENERGY
 	jr c, .pokemon_card_1
-	cp TYPE_TRAINER
+	cp TYPE_TRAINER_ITEM
 	jr z, .next_card_deck_1
 
 ; energy card
@@ -91,7 +91,7 @@ SetUpBossStartingHandAndDeck:
 	ld a, [wLoadedCard1Type]
 	cp TYPE_ENERGY
 	jr c, .pokemon_card_2
-	cp TYPE_TRAINER
+	cp TYPE_TRAINER_ITEM
 	jr z, .next_card_deck_2
 
 ; energy card

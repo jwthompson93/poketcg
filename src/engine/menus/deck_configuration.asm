@@ -2898,7 +2898,7 @@ PrintConfirmationCardList:
 	jr .got_tile
 
 .not_pkmn_card
-	cp TYPE_TRAINER
+	cp TYPE_TRAINER_ITEM
 	jr nc, .trainer_card
 
 ; energy card

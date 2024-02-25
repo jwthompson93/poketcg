@@ -569,7 +569,7 @@ CheckIfCardCanBePlayed:
 	ld a, [wLoadedCard1Type]
 	cp TYPE_ENERGY
 	jr c, .pokemon_card
-	cp TYPE_TRAINER
+	cp TYPE_TRAINER_ITEM
 	jr z, .trainer_card
 
 ; energy card
